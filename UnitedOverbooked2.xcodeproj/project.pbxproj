@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0432D15A1EBAB92C00803A32 /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432D1591EBAB92C00803A32 /* PlayScene.swift */; };
+		04745C9F1EB42AA600FFAC31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04745C9E1EB42AA600FFAC31 /* AppDelegate.swift */; };
+		04745CA11EB42AA600FFAC31 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 04745CA01EB42AA600FFAC31 /* GameScene.sks */; };
+		04745CA31EB42AA600FFAC31 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 04745CA21EB42AA600FFAC31 /* Actions.sks */; };
+		04745CA51EB42AA600FFAC31 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04745CA41EB42AA600FFAC31 /* GameScene.swift */; };
+		04745CA71EB42AA600FFAC31 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04745CA61EB42AA600FFAC31 /* GameViewController.swift */; };
+		04745CAA1EB42AA600FFAC31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04745CA81EB42AA600FFAC31 /* Main.storyboard */; };
+		04745CAC1EB42AA600FFAC31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04745CAB1EB42AA600FFAC31 /* Assets.xcassets */; };
+		04745CAF1EB42AA600FFAC31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04745CAD1EB42AA600FFAC31 /* LaunchScreen.storyboard */; };
+		04745CB71EB431F200FFAC31 /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04745CB61EB431F200FFAC31 /* PlayScene.swift */; };
+		04745CB91EB4508200FFAC31 /* BlockStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04745CB81EB4508200FFAC31 /* BlockStatus.swift */; };
+		04AE94AB1EB5645A002E14EB /* EndGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE94AA1EB5645A002E14EB /* EndGame.swift */; };
+		04AE94AD1EB5673A002E14EB /* Meme_Audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04AE94AC1EB5673A002E14EB /* Meme_Audio.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0432D1591EBAB92C00803A32 /* PlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayScene.swift; path = ../../../Documents/unifiedAirlines/PlayScene.swift; sourceTree = "<group>"; };
+		04745C9B1EB42AA600FFAC31 /* UnitedOverbooked2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitedOverbooked2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04745C9E1EB42AA600FFAC31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04745CA01EB42AA600FFAC31 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		04745CA21EB42AA600FFAC31 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		04745CA41EB42AA600FFAC31 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		04745CA61EB42AA600FFAC31 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		04745CA91EB42AA600FFAC31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04745CAB1EB42AA600FFAC31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04745CAE1EB42AA600FFAC31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04745CB01EB42AA600FFAC31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04745CB61EB431F200FFAC31 /* PlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayScene.swift; sourceTree = "<group>"; };
+		04745CB81EB4508200FFAC31 /* BlockStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockStatus.swift; path = ../../UnitedOverbooked/UnitedOverbooked/BlockStatus.swift; sourceTree = "<group>"; };
+		04AE94AA1EB5645A002E14EB /* EndGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndGame.swift; sourceTree = "<group>"; };
+		04AE94AC1EB5673A002E14EB /* Meme_Audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Meme_Audio.mp3; path = ../../../Downloads/Meme_Audio.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04745C981EB42AA600FFAC31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04745C921EB42AA600FFAC31 = {
+			isa = PBXGroup;
+			children = (
+				04745C9D1EB42AA600FFAC31 /* UnitedOverbooked2 */,
+				04745C9C1EB42AA600FFAC31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04745C9C1EB42AA600FFAC31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04745C9B1EB42AA600FFAC31 /* UnitedOverbooked2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04745C9D1EB42AA600FFAC31 /* UnitedOverbooked2 */ = {
+			isa = PBXGroup;
+			children = (
+				04745C9E1EB42AA600FFAC31 /* AppDelegate.swift */,
+				04745CA01EB42AA600FFAC31 /* GameScene.sks */,
+				04745CA21EB42AA600FFAC31 /* Actions.sks */,
+				04745CA41EB42AA600FFAC31 /* GameScene.swift */,
+				04745CA61EB42AA600FFAC31 /* GameViewController.swift */,
+				04745CA81EB42AA600FFAC31 /* Main.storyboard */,
+				04745CAB1EB42AA600FFAC31 /* Assets.xcassets */,
+				04745CAD1EB42AA600FFAC31 /* LaunchScreen.storyboard */,
+				04745CB01EB42AA600FFAC31 /* Info.plist */,
+				04AE94AC1EB5673A002E14EB /* Meme_Audio.mp3 */,
+				04745CB61EB431F200FFAC31 /* PlayScene.swift */,
+				0432D1591EBAB92C00803A32 /* PlayScene.swift */,
+				04745CB81EB4508200FFAC31 /* BlockStatus.swift */,
+				04AE94AA1EB5645A002E14EB /* EndGame.swift */,
+			);
+			path = UnitedOverbooked2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04745C9A1EB42AA600FFAC31 /* UnitedOverbooked2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04745CB31EB42AA600FFAC31 /* Build configuration list for PBXNativeTarget "UnitedOverbooked2" */;
+			buildPhases = (
+				04745C971EB42AA600FFAC31 /* Sources */,
+				04745C981EB42AA600FFAC31 /* Frameworks */,
+				04745C991EB42AA600FFAC31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnitedOverbooked2;
+			productName = UnitedOverbooked2;
+			productReference = 04745C9B1EB42AA600FFAC31 /* UnitedOverbooked2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04745C931EB42AA600FFAC31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Myank Singhal";
+				TargetAttributes = {
+					04745C9A1EB42AA600FFAC31 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Z4S9SAC844;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04745C961EB42AA600FFAC31 /* Build configuration list for PBXProject "UnitedOverbooked2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04745C921EB42AA600FFAC31;
+			productRefGroup = 04745C9C1EB42AA600FFAC31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04745C9A1EB42AA600FFAC31 /* UnitedOverbooked2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04745C991EB42AA600FFAC31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04745CAA1EB42AA600FFAC31 /* Main.storyboard in Resources */,
+				04745CA11EB42AA600FFAC31 /* GameScene.sks in Resources */,
+				04745CAC1EB42AA600FFAC31 /* Assets.xcassets in Resources */,
+				04AE94AD1EB5673A002E14EB /* Meme_Audio.mp3 in Resources */,
+				04745CAF1EB42AA600FFAC31 /* LaunchScreen.storyboard in Resources */,
+				04745CA31EB42AA600FFAC31 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04745C971EB42AA600FFAC31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04745CA51EB42AA600FFAC31 /* GameScene.swift in Sources */,
+				0432D15A1EBAB92C00803A32 /* PlayScene.swift in Sources */,
+				04745CB91EB4508200FFAC31 /* BlockStatus.swift in Sources */,
+				04745CA71EB42AA600FFAC31 /* GameViewController.swift in Sources */,
+				04AE94AB1EB5645A002E14EB /* EndGame.swift in Sources */,
+				04745CB71EB431F200FFAC31 /* PlayScene.swift in Sources */,
+				04745C9F1EB42AA600FFAC31 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04745CA81EB42AA600FFAC31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04745CA91EB42AA600FFAC31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04745CAD1EB42AA600FFAC31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04745CAE1EB42AA600FFAC31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04745CB11EB42AA600FFAC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04745CB21EB42AA600FFAC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04745CB41EB42AA600FFAC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z4S9SAC844;
+				INFOPLIST_FILE = UnitedOverbooked2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = randomorganization.UnitedOverbooked2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04745CB51EB42AA600FFAC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z4S9SAC844;
+				INFOPLIST_FILE = UnitedOverbooked2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = randomorganization.UnitedOverbooked2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04745C961EB42AA600FFAC31 /* Build configuration list for PBXProject "UnitedOverbooked2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04745CB11EB42AA600FFAC31 /* Debug */,
+				04745CB21EB42AA600FFAC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04745CB31EB42AA600FFAC31 /* Build configuration list for PBXNativeTarget "UnitedOverbooked2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04745CB41EB42AA600FFAC31 /* Debug */,
+				04745CB51EB42AA600FFAC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04745C931EB42AA600FFAC31 /* Project object */;
+}
